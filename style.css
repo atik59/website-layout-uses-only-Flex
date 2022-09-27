@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.manu{
+    width: 100%;
+    height: 4rem;
+    background-color: #6f996f;
+    border-radius: 0;
+    position: sticky;
+    top: 0%;
+}
+
+.manu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.manu ul li{
+    width: 5rem;
+    height: 3rem;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(95, 95, 95);
+}
+
+.manu ul li:hover{
+    cursor: pointer;
+    background-color: #1a6662;
+
+}
+
+.mainlayout{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.firstpart{
+    width: 69%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstsub1{
+    width: 100%;
+    height: 38vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstsub2{
+    width: 97%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2.5%;
+}
+
+.firstitem1{
+    width: 30%;
+    height: 100%;
+    background-color: #acd8d6;
+    box-shadow: 0 2px 10px rgb(226, 226, 226);
+
+}
+
+.firstitem1:hover{
+    cursor: pointer;
+    background-color: #356360;
+}
+
+.firstitem2{
+    width: 98%;
+    height: 50%;
+    background-color: #3AAFA9;
+    box-shadow: 0 2px 10px rgb(226, 226, 226);
+
+}
+
+.firstitem2:hover{
+    cursor: pointer;
+    background-color: #356360;
+}
+
+.firstsub{
+    width: 98%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstsubitem{
+    width: 49%;
+    height: 100%;
+    background-color: #576b74;
+}
+
+.firstsubitem:hover{
+    cursor: pointer;
+    background-color: rgb(29, 54, 53);
+}
+.secondpart{
+    width: 30%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+
+.seconditem{
+    width: 100%;
+    height: 100px;
+    background-color: #2B7A78;
+    box-shadow: 0 2px 10px rgb(226, 226, 226);
+}
+.seconditem:hover{
+    cursor: pointer;
+    background-color: #2bcfc7;
+}
+
+.contentarea{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.content{
+    margin: .5rem;
+    height: 95%;
+
+}
+.one{
+    width: 25%;
+    background-color: #83bdba;
+}
+.two{
+    width: 75%;
+    background-color: #2bcfc7;
+}
+
+.one:hover{
+    cursor: pointer;
+    background-color: #005551;
+}
+
+.two:hover{
+    cursor: pointer;
+    background-color: #003b38;
+}
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #578557;
+    border-radius: 0;
+}
